@@ -19,9 +19,8 @@ const About = () => {
   const themeColors = useThemeColors();
 
   const roles = [
-    'Software Engineer',
-    'Full-Stack Developer',
-    'Systems Engineer',
+    'Information Technology Student',
+    'UI/UX Designer',
     'Frontend Developer',
   ];
 
