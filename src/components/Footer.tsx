@@ -27,7 +27,7 @@ const Footer = () => {
               </span>
             </div>
             <div className="text-sm" style={{ color: isDarkMode ? themeColors.colors.white : themeColors.colors.pink[700] }}>
-              © {currentYear} Your Name. All rights reserved.
+              © {currentYear} Nur Azizah Ulinnuha. All rights reserved.
             </div>
           </div>
 
