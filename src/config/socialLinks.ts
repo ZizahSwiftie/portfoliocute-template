@@ -1,23 +1,23 @@
-// Social Links Configuration - uses environment variables only
+// Social Links Configuration
 export const socialLinks = {
   // Main social profiles
-  github: import.meta.env.VITE_GITHUB_URL,
-  linkedin: import.meta.env.VITE_LINKEDIN_URL,
-  email: import.meta.env.VITE_EMAIL,
-  
+  github: 'https://github.com/ZizahSwiftie',
+  linkedin: 'https://www.linkedin.com/in/nur-azizah-ulinnuha',
+  email: 'azizahulnha@gmail.com',
+
   // GitHub repository URLs
   repositories: {
-    projectOne: import.meta.env.VITE_GITHUB_PROJECT1_URL,
-    projectTwo: import.meta.env.VITE_GITHUB_PROJECT2_URL,
-    projectThree: import.meta.env.VITE_GITHUB_PROJECT3_URL,
-    projectFour: import.meta.env.VITE_GITHUB_PROJECT4_URL,
+    projectOne: 'https://github.com/username/project-one',
+    projectTwo: 'https://github.com/username/project-two',
+    projectThree: 'https://github.com/username/project-three',
+    projectFour: 'https://github.com/username/project-four',
   },
-  
-  // Formatted display names (extracted from environment variables)
+
+  // Formatted display names
   display: {
-    github: import.meta.env.VITE_GITHUB_URL?.replace('https://', ''),
-    linkedin: import.meta.env.VITE_LINKEDIN_URL?.replace('https://', ''),
-    email: import.meta.env.VITE_EMAIL,
+    github: 'github.com/ZizahSwiftie',
+    linkedin: 'linkedin.com/in/nur-azizah-ulinnuha',
+    email: 'azizahulnha@gmail.com',
   }
 };
 
