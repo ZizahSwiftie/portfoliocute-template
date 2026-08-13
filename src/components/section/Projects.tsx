@@ -9,7 +9,6 @@ import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-rea
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
 import { comingSoon } from '../../assets';
-import { shifaaMindIcon, freshLensIcon, sepulauIcon, bandinginIcon } from '../../assets/project_icons';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -233,7 +232,7 @@ const Projects = () => {
       title: "ShifaaMind",
       description: "AI-powered Islamic health platform dengan pendekatan User-Centered Design. SUS score 88.5 (Excellent).",
       technologies: ["Figma", "UX Research", "Prototyping", "Usability Testing"],
-      icon: shifaaMindIcon,
+      icon: comingSoon,
       detailsUrl: "/projects/shifaamind",
       githubUrl: socialLinks.figma.shifaaMind
     },
@@ -241,7 +240,7 @@ const Projects = () => {
       title: "FreshLens AI",
       description: "Smart household assistant untuk mengurangi food waste lewat prediksi kesegaran makanan berbasis IoT & ML.",
       technologies: ["Figma", "UI Design", "IoT Concept", "Design System"],
-      icon: freshLensIcon,
+      icon: comingSoon,
       detailsUrl: "/projects/freshlens-ai",
       githubUrl: socialLinks.figma.freshLens
     },
@@ -249,7 +248,7 @@ const Projects = () => {
       title: "SePulau",
       description: "Platform edukasi interaktif sejarah Indonesia berbasis storytelling & gamifikasi dengan pendekatan UCD.",
       technologies: ["Figma", "Interaction Design", "Gamification", "UX Research"],
-      icon: sepulauIcon,
+      icon: comingSoon,
       detailsUrl: "/projects/sepulau",
       githubUrl: socialLinks.figma.sepulau
     },
@@ -257,7 +256,7 @@ const Projects = () => {
       title: "Bandingin.id",
       description: "Platform perbandingan produk/harga yang membantu pengguna mengambil keputusan lebih cepat lewat tampilan yang simpel dan informatif.",
       technologies: ["Figma", "UI Design", "Wireframing", "Prototyping"],
-      icon: bandinginIcon,
+      icon: comingSoon,
       detailsUrl: "/projects/bandingin-id",
       githubUrl: socialLinks.figma.bandingin
     }
