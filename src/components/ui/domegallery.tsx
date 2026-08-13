@@ -26,6 +26,7 @@ const {
     NpmLight: Npm,
     Postman,
     ReactLight: ReactIcon,
+    TailwindCSSLight: TailwindCSS,
     ThreeJSLight: ThreeJS,
     TypeScript,
     VercelLight: Vercel,
