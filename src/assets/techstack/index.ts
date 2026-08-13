@@ -65,6 +65,7 @@ export const techStackIcons = {
   NpmLight,
   Postman,
   ReactLight,
+  TailwindCSSLight,
   ThreeJSLight,
   TypeScript,
   VercelLight,
