@@ -8,34 +8,49 @@ const Experience = () => {
   const themeColors = useThemeColors();
   const experiences = [
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "Program & Event Committee",
+      company: "KPM International SDGs Competition 2026",
+      location: "Yogyakarta, Indonesia",
+      period: "Dec 2025 - May 2026",
       description: [
-        "Description of your role and accomplishments",
+        "Bagian dari tim penyelenggara kompetisi internasional bertema SDGs",
       ]
     },
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "UI/UX Sub-event Committee",
+      company: "SpectaWave TEnTI",
+      location: "Yogyakarta, Indonesia",
+      period: "Nov 2025 - Jan 2026",
       description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
+        "Bertanggung jawab atas rancangan UI/UX untuk sub-event",
       ]
     },
     {
-      title: "Your Job Title",
-      company: "Company Name",
-      location: "City, State",
-      period: "Month Year - Month Year",
+      title: "IT & Science Division Member",
+      company: "Kelompok Penelitian Mahasiswa (KPM) UMY",
+      location: "Yogyakarta, Indonesia",
+      period: "Sept 2025 - Present",
       description: [
-        "Description of your role and accomplishments",
-        "Another accomplishment or responsibility",
-        "One more key achievement",
+        "Terlibat aktif dalam riset dan proyek berbasis IT & Science",
+      ]
+    },
+    {
+      title: "On Job Training (OJT), Science & Technology Division",
+      company: "KMTI (Keluarga Mahasiswa Teknologi Informasi) UMY",
+      location: "Yogyakarta, Indonesia",
+      period: "Nov 2024 - June 2025",
+      description: [
+        "Mendukung kegiatan divisi Science & Technology di organisasi mahasiswa",
+      ]
+    },
+    {
+      title: "Social Department Coordinator",
+      company: "Young On Top (YOT) Bogor",
+      location: "Bogor, Indonesia",
+      period: "Jan 2024 - Dec 2024",
+      description: [
+        "Mengkoordinasikan program sosial YOT Bogor",
+        "Master of Ceremony untuk beberapa acara komunitas (YoTeach YoFun, YOT Green x Social)",
       ]
     }
   ];
