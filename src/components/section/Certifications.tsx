@@ -15,63 +15,138 @@ const Certifications = () => {
 
   const badges = [
     {
-      id: 'aws-cloud-foundations',
-      image: awsCloudFoundationsBadge,
-      alt: 'AWS Academy Cloud Foundations Badge',
-      title: 'AWS Academy Cloud Foundations',
-      subtitle: 'Academy Graduate',
-      credentialUrl: 'https://www.credly.com/badges/your-credential-id/public_url',
+      id: 'dicoding-ml-systems',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Building Machine Learning Systems',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/N9ZONWOV8XG5',
       status: 'completed'
     },
     {
-      id: 'aws-cloud-practitioner',
-      image: awsCloudPractitionerBadge,
-      alt: 'AWS Cloud Practitioner Badge',
-      title: 'AWS Certified Cloud Practitioner',
-      subtitle: 'Amazon Web Services',
-      credentialUrl: 'https://www.credly.com/badges/your-credential-id/public_url',
+      id: 'dicoding-prompt-eng',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Prompt Engineering for Software Developers',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/6RPN70EK9X2M',
+      status: 'completed'
+    },
+    {
+      id: 'dicoding-ai-basics',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Introduction to AI Basics',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/N9ZONQV36XG5',
+      status: 'completed'
+    },
+    {
+      id: 'dicoding-ux-fundamentals',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'UX Design Fundamentals',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/98XW0YN9LXM3',
+      status: 'completed'
+    },
+    {
+      id: 'dicoding-principles-of-project-management',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Principles of Project Management',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/72ZDJNJLQZYW',
+      status: 'completed'
+    },
+    {
+      id: 'dicoding-google-cloud-fundamentals',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Google Cloud Fundamentals',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/GRX5WM5OKZ0M',
+      status: 'completed'
+    },
+    {
+      id: 'dicoding-data-science-fundamentals',
+      image: dicodingLogo,
+      alt: 'Dicoding Logo',
+      title: 'Data Science Fundamentals',
+      subtitle: 'Dicoding Indonesia',
+      credentialUrl: 'https://www.dicoding.com/certificates/N9ZONQWG6XG5',
+      status: 'completed'
+    },
+    {
+      id: 'cisco-it-essentials-umy',
+      image: ciscoLogo,
+      alt: 'Cisco Logo',
+      title: 'IT Essentials',
+      subtitle: 'Cisco Networking Academy (UMY)',
+      // no credentialUrl -> hanya file PDF, gak ada link publik
+      status: 'completed'
+    },
+    {
+      id: 'cisco-it-essentials',
+      image: ciscoLogo,
+      alt: 'Cisco Logo',
+      title: 'IT Essentials',
+      subtitle: 'Cisco',
+      credentialUrl: 'https://www.credly.com/badges/42261c8c-1e96-4c66-9b8d-6bfc5524d47a/linked_in_profile', 
       status: 'completed'
     }
   ];
 
   const credentials = [
     {
-      id: 'citi-human-subjects',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Social / Behavioral Research Investigator',
-      subtitle: 'Human Subjects Research',
-      issuer: 'CITI Program',
-      issued: 'Sep 2023',
-      expires: 'Sep 2026',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
+      id: 'hackthebox-ctf-2025',
+      image: hackTheBoxLogo,
+      alt: 'Hack The Box Logo',
+      title: 'University CTF 2025 – Certificate of Participation',
+      subtitle: 'Solved 31/34 challenges, ranked 126th of 1,014 teams (Team Arcanists)',
+      issuer: 'Hack The Box',
+      issued: 'Dec 2025',
+      status: 'completed'
+      // no credentialUrl -> hanya ada file PDF sertifikat
+    },
+    {
+      id: 'samsung-sft-finalist',
+      image: samsungLogo,
+      alt: 'Samsung Solve for Tomorrow Logo',
+      title: 'Finalist – Samsung Solve for Tomorrow 2025',
+      subtitle: 'University Category · Project: FreshLens AI',
+      issuer: 'Samsung Solve for Tomorrow',
+      issued: 'Oct 2025',
       status: 'completed'
     },
     {
-      id: 'citi-hipaa',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Research and HIPAA Privacy Protections',
-      subtitle: 'Human Research',
-      issuer: 'CITI Program',
-      issued: 'Sep 2023',
-      expires: 'Sep 2026',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
+      id: 'samsung-sft-design-thinking',
+      image: samsungLogo,
+      alt: 'Samsung Solve for Tomorrow Logo',
+      title: 'Design Thinking Workshop Participant',
+      subtitle: 'User research, problem definition & prototyping',
+      issuer: 'Samsung Solve for Tomorrow',
+      issued: 'Jul 2025',
       status: 'completed'
     },
     {
-      id: 'citi-gcp',
-      image: citiLogo,
-      alt: 'CITI Program Logo',
-      title: 'Investigational Drugs and Medical Devices',
-      subtitle: 'Good Clinical Practice',
-      issuer: 'CITI Program',
-      issued: 'Nov 2025',
-      expires: 'Nov 2028',
-      credentialId: '00000000',
-      credentialUrl: 'https://www.citiprogram.org/verify/?your-credential-id',
+      id: 'kelasdigi-ai-visual',
+      image: kelasDigiLogo,
+      alt: 'Kelas DiGi Logo',
+      title: 'Workshop Participant – AI Visual',
+      subtitle: 'AI for visual content creation & digital creativity',
+      issuer: 'PT Kelas Digi Kreatif',
+      issued: 'Aug 2025',
+      status: 'completed'
+    },
+    {
+      id: 'menaraprestasi-autotext',
+      image: menaraPrestasiLogo,
+      alt: 'Menara Prestasi Logo',
+      title: 'Bootcamp Participant – Autotext',
+      subtitle: 'Content automation, structured writing & text-based analysis',
+      issuer: 'Menara Prestasi UNJ',
+      issued: 'May - Jul 2025',
       status: 'completed'
     }
   ];
