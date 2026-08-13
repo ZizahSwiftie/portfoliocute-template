@@ -9,6 +9,7 @@ import { ExternalLink, Code, Heart, ChevronLeft, ChevronRight } from 'lucide-rea
 import { socialLinks } from '../../config/socialLinks';
 import { lightStars, darkStars, specialStars } from '../../assets/stars';
 import { comingSoon } from '../../assets';
+import { shifaaMindIcon, freshLensIcon, sepulauIcon, bandinginIcon } from '../../assets/project_icons';
 
 const Projects = () => {
   const { isDarkMode } = useDarkMode();
@@ -229,36 +230,36 @@ const Projects = () => {
   // project data - these are the main cards
   const projects = [
     {
-      title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-one",
-      githubUrl: socialLinks.repositories.projectOne
+      title: "ShifaaMind",
+      description: "AI-powered Islamic health platform dengan pendekatan User-Centered Design. SUS score 88.5 (Excellent).",
+      technologies: ["Figma", "UX Research", "Prototyping", "Usability Testing"],
+      icon: shifaaMindIcon,
+      detailsUrl: "/projects/shifaamind",
+      githubUrl: socialLinks.figma.shifaaMind
     },
     {
-      title: "Project Two",
-      description: "A brief description of your second project. Highlight the key features and what makes it unique.",
-      technologies: ["Python", "Flask", "PostgreSQL", "Docker"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-two",
-      githubUrl: socialLinks.repositories.projectTwo
+      title: "FreshLens AI",
+      description: "Smart household assistant untuk mengurangi food waste lewat prediksi kesegaran makanan berbasis IoT & ML.",
+      technologies: ["Figma", "UI Design", "IoT Concept", "Design System"],
+      icon: freshLensIcon,
+      detailsUrl: "/projects/freshlens-ai",
+      githubUrl: socialLinks.figma.freshLens
     },
     {
-      title: "Project Three",
-      description: "A brief description of your third project. Highlight the key features and what makes it unique.",
-      technologies: ["JavaScript", "Express", "AWS", "Tailwind CSS"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-three",
-      githubUrl: socialLinks.repositories.projectThree
+      title: "SePulau",
+      description: "Platform edukasi interaktif sejarah Indonesia berbasis storytelling & gamifikasi dengan pendekatan UCD.",
+      technologies: ["Figma", "Interaction Design", "Gamification", "UX Research"],
+      icon: sepulauIcon,
+      detailsUrl: "/projects/sepulau",
+      githubUrl: socialLinks.figma.sepulau
     },
     {
-      title: "Project Four",
-      description: "A brief description of your fourth project. Highlight the key features and what makes it unique.",
-      technologies: ["C++", "CMake", "OpenGL"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-four",
-      githubUrl: socialLinks.repositories.projectFour
+      title: "Bandingin.id",
+      description: "Platform perbandingan produk/harga yang membantu pengguna mengambil keputusan lebih cepat lewat tampilan yang simpel dan informatif.",
+      technologies: ["Figma", "UI Design", "Wireframing", "Prototyping"],
+      icon: bandinginIcon,
+      detailsUrl: "/projects/bandingin-id",
+      githubUrl: socialLinks.figma.bandingin
     }
   ];
 
