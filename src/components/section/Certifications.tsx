@@ -1,8 +1,13 @@
 import { useDarkMode } from '../../contexts/DarkModeContext';
 import { useThemeColors } from '../../hooks/useThemeColors';
-import awsCloudFoundationsBadge from '../../assets/badges/AWS_cloud_foundations_badge.webp';
-import awsCloudPractitionerBadge from '../../assets/badges/AWS_cloud_practitioner_badge.webp';
-import citiLogo from '../../assets/badges/citi_logo.webp';
+import dicodingLogo from '../../assets/badges/dicodingLogo.png';
+import ciscoLogo from '../../assets/badges/ciscoLogo.jpg';
+import icosoLogo from '../../assets/badges/icosoLogo.jpg';
+import hackTheBoxLogo from '../../assets/badges/hackTheBoxLogo.jpg';
+import samsungLogo from '../../assets/badges/samsungLogo.png';
+import pkmLogo from '../../assets/badges/pkmLogo.jpg';
+import kelasDigiLogo from '../../assets/badges/kelasDigiLogo.jpg';
+import menaraPrestasiLogo from '../../assets/badges/menaraPrestasiLogo.jpg';
 
 const Certifications = () => {
   const { isDarkMode } = useDarkMode();
