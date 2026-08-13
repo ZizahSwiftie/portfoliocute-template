@@ -100,15 +100,15 @@ const Certifications = () => {
 
   const credentials = [
     {
-      id: 'hackthebox-ctf-2025',
-      image: hackTheBoxLogo,
-      alt: 'Hack The Box Logo',
-      title: 'University CTF 2025 – Certificate of Participation',
-      subtitle: 'Solved 31/34 challenges, ranked 126th of 1,014 teams (Team Arcanists)',
-      issuer: 'Hack The Box',
-      issued: 'Dec 2025',
+      id: 'samsung-sft-ai-amplification',
+      image: samsungLogo,
+      alt: 'Samsung Solve for Tomorrow Logo',
+      title: 'AI Amplification Workshop',
+      subtitle: 'Idea validation, IoT data collection, AI training & deployment, system integration (Score: 81.25)',
+      issuer: 'Samsung Solve for Tomorrow · Supported by Skilvul',
+      issued: 'Jul - Aug 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1k_W90zy1P1E4JGSWGE4oA_Mpyx2gS1y0/view?usp=drive_link',
       status: 'completed'
-      // no credentialUrl -> hanya ada file PDF sertifikat
     },
     {
       id: 'samsung-sft-finalist',
@@ -166,17 +166,6 @@ const Certifications = () => {
       status: 'completed'
     },
     {
-      id: 'pkm-kc-3rd-place',
-      image: pkmLogo,
-      alt: 'PKM-KC Logo',
-      title: '3rd Place – Student Creativity Program (PKM-KC)',
-      subtitle: 'FireLine AI: robotic fire detection & suppression system using YOLOv8',
-      issuer: 'Fakultas Teknik, Universitas Muhammadiyah Yogyakarta',
-      issued: 'Jan 2025',
-      credentialUrl: 'https://drive.google.com/file/d/1cPn9x4DMSIhmZ7a5pMmSWbPBK2_xaj42/view?usp=drive_link',
-      status: 'completed'
-    },
-    {
       id: 'icosi-icitcom-presenter',
       image: icitcomLogo,
       alt: 'ICoSI / ICITCOM Logo',
@@ -185,6 +174,28 @@ const Certifications = () => {
       issuer: 'International Conference on Information Technology and Computing (ICITCOM)',
       issued: 'Aug 2026',
       credentialUrl: 'https://drive.google.com/file/d/1OGB1tEuWwDma05M5fCvEwW3fNqT8alo0/view?usp=drive_link',
+      status: 'completed'
+    },
+    {
+      id: 'hackthebox-ctf-2025',
+      image: hackTheBoxLogo,
+      alt: 'Hack The Box Logo',
+      title: 'University CTF 2025 – Certificate of Participation',
+      subtitle: 'Solved 31/34 challenges, ranked 126th of 1,014 teams (Team Arcanists)',
+      issuer: 'Hack The Box',
+      issued: 'Dec 2025',
+      status: 'completed'
+      credentialUrl: 'https://drive.google.com/file/d/1lGyQU6LdEIcGrpND30LGkpG-pHHOW8AX/view?usp=drive_link',
+    },
+    {
+      id: 'pkm-kc-3rd-place',
+      image: pkmLogo,
+      alt: 'PKM-KC Logo',
+      title: '3rd Place – Student Creativity Program (PKM-KC)',
+      subtitle: 'FireLine AI: robotic fire detection & suppression system using YOLOv8',
+      issuer: 'Fakultas Teknik, Universitas Muhammadiyah Yogyakarta',
+      issued: 'Jan 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1cPn9x4DMSIhmZ7a5pMmSWbPBK2_xaj42/view?usp=drive_link',
       status: 'completed'
     }
   ];
