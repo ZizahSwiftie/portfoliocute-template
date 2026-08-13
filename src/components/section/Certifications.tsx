@@ -6,6 +6,7 @@ import icosoLogo from '../../assets/badges/icosoLogo.jpg';
 import hackTheBoxLogo from '../../assets/badges/hackTheBoxLogo.jpg';
 import samsungLogo from '../../assets/badges/samsungLogo.png';
 import pkmLogo from '../../assets/badges/pkmLogo.jpg';
+import icitcomLogo from '../../assets/badges/icitcomLogo.png';
 import kelasDigiLogo from '../../assets/badges/kelasDigiLogo.jpg';
 import menaraPrestasiLogo from '../../assets/badges/menaraPrestasiLogo.jpg';
 
