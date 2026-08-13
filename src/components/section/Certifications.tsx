@@ -1,6 +1,6 @@
 import { useDarkMode } from '../../contexts/DarkModeContext';
 import { useThemeColors } from '../../hooks/useThemeColors';
-import dicodingLogo from '../../assets/badges/dicodingLogo.png';
+import dicodingLogo from '../../assets/badges/dicodingLogo.jpg';
 import ciscoLogo from '../../assets/badges/ciscoLogo.jpg';
 import icosoLogo from '../../assets/badges/icosoLogo.jpg';
 import hackTheBoxLogo from '../../assets/badges/hackTheBoxLogo.jpg';
