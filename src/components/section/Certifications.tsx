@@ -153,6 +153,39 @@ const Certifications = () => {
       credentialUrl: 'https://drive.google.com/file/d/1Vv-GZBred764KRcbkiZOm1eCjxHitLxp/view?usp=drive_link',
       status: 'completed'
     }
+    {
+      id: 'icosi-2026-audience',
+      image: icosoLogo,
+      alt: 'ICoSI Logo',
+      title: 'ICoSI 2026 – Audience Participant',
+      subtitle: 'The 10th International Conference on Sustainable Innovation',
+      issuer: 'Universitas Muhammadiyah Yogyakarta',
+      issued: 'Aug 2026',
+      credentialUrl: 'https://drive.google.com/file/d/1oDM30luzDKcXB9SUE1c-bps3waBnaWu_/view?usp=drive_link',
+      status: 'completed'
+    },
+    {
+      id: 'pkm-kc-3rd-place',
+      image: pkmLogo,
+      alt: 'PKM-KC Logo',
+      title: '3rd Place – Student Creativity Program (PKM-KC)',
+      subtitle: 'FireLine AI: robotic fire detection & suppression system using YOLOv8',
+      issuer: 'Fakultas Teknik, Universitas Muhammadiyah Yogyakarta',
+      issued: 'Jan 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1cPn9x4DMSIhmZ7a5pMmSWbPBK2_xaj42/view?usp=drive_link',
+      status: 'completed'
+    },
+    {
+      id: 'icosi-icitcom-presenter',
+      image: icitcomLogo,
+      alt: 'ICoSI / ICITCOM Logo',
+      title: 'ICITCOM 2026 – Presenter',
+      subtitle: 'Presented research on YOLOv5 vs YOLOv8 for edge-based pest monitoring',
+      issuer: 'International Conference on Information Technology and Computing (ICITCOM)',
+      issued: 'Aug 2026',
+      credentialUrl: 'https://drive.google.com/file/d/1OGB1tEuWwDma05M5fCvEwW3fNqT8alo0/view?usp=drive_link',
+      status: 'completed'
+    }
   ];
 
   return (
