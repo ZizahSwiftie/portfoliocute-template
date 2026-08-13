@@ -184,8 +184,8 @@ const Certifications = () => {
       subtitle: 'Solved 31/34 challenges, ranked 126th of 1,014 teams (Team Arcanists)',
       issuer: 'Hack The Box',
       issued: 'Dec 2025',
-      status: 'completed'
       credentialUrl: 'https://drive.google.com/file/d/1lGyQU6LdEIcGrpND30LGkpG-pHHOW8AX/view?usp=drive_link',
+      status: 'completed'
     },
     {
       id: 'pkm-kc-3rd-place',
