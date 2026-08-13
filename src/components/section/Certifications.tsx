@@ -117,6 +117,7 @@ const Certifications = () => {
       subtitle: 'University Category · Project: FreshLens AI',
       issuer: 'Samsung Solve for Tomorrow',
       issued: 'Oct 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1xbzqodKV5RdRJ_iRuT5csjkeWONR0RqX/view?usp=drive_link',
       status: 'completed'
     },
     {
@@ -127,6 +128,7 @@ const Certifications = () => {
       subtitle: 'User research, problem definition & prototyping',
       issuer: 'Samsung Solve for Tomorrow',
       issued: 'Jul 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1nLewxMk0n1j6uISkMaefgvoSV4tyTv8f/view?usp=drive_link',
       status: 'completed'
     },
     {
@@ -137,6 +139,7 @@ const Certifications = () => {
       subtitle: 'AI for visual content creation & digital creativity',
       issuer: 'PT Kelas Digi Kreatif',
       issued: 'Aug 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1HMa3RCpI2AE9ApLu7QGAKPqi_TwonCzK/view?usp=drive_link',
       status: 'completed'
     },
     {
@@ -147,6 +150,7 @@ const Certifications = () => {
       subtitle: 'Content automation, structured writing & text-based analysis',
       issuer: 'Menara Prestasi UNJ',
       issued: 'May - Jul 2025',
+      credentialUrl: 'https://drive.google.com/file/d/1Vv-GZBred764KRcbkiZOm1eCjxHitLxp/view?usp=drive_link',
       status: 'completed'
     }
   ];
