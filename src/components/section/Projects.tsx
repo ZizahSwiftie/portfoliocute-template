@@ -499,9 +499,9 @@ const Projects = () => {
                       <ExternalLink className="h-4 w-4" aria-hidden="true" />
                       Details
                     </Link>
-                    <a href={project.githubUrl} className="project-btn-outline flex items-center gap-1" style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} source code on GitHub`}>
+                    <a href={project.githubUrl} className="project-btn-outline flex items-center gap-1" style={{ textDecoration: 'none' }} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} Figma design`}>
                       <Code className="h-4 w-4" aria-hidden="true" />
-                      Code
+                      Figma
                     </a>
                   </div>
                 </CardContent>
