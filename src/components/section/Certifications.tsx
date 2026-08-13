@@ -153,7 +153,7 @@ const Certifications = () => {
       issued: 'May - Jul 2025',
       credentialUrl: 'https://drive.google.com/file/d/1Vv-GZBred764KRcbkiZOm1eCjxHitLxp/view?usp=drive_link',
       status: 'completed'
-    }
+    },
     {
       id: 'icosi-2026-audience',
       image: icosoLogo,
