@@ -13,7 +13,7 @@ const Experience = () => {
       location: "Yogyakarta, Indonesia",
       period: "Dec 2025 - May 2026",
       description: [
-        "Bagian dari tim penyelenggara kompetisi internasional bertema SDGs",
+        "Mengoordinasikan alur kerja program dan logistik acara untuk kompetisi SDGs tingkat internasional. Bertanggung jawab mengelola susunan acara, persiapan substansi, dan keterlibatan peserta guna memastikan kelancaran pelaksanaan sesi akademik yang melibatkan peserta dari berbagai latar belakang budaya.",
       ]
     },
     {
@@ -22,16 +22,7 @@ const Experience = () => {
       location: "Yogyakarta, Indonesia",
       period: "Nov 2025 - Jan 2026",
       description: [
-        "Bertanggung jawab atas rancangan UI/UX untuk sub-event",
-      ]
-    },
-    {
-      title: "IT & Science Division Member",
-      company: "Kelompok Penelitian Mahasiswa (KPM) UMY",
-      location: "Yogyakarta, Indonesia",
-      period: "Sept 2025 - Present",
-      description: [
-        "Terlibat aktif dalam riset dan proyek berbasis IT & Science",
+        "Memimpin persiapan teknis dan alur kerja acara untuk kompetisi UI/UX tingkat nasional. Mengelola pedoman kompetisi, penjadwalan rangkaian acara, dan logistik presentasi langsung guna menghadirkan pengalaman yang terstruktur bagi para peserta.",
       ]
     },
     {
@@ -40,19 +31,9 @@ const Experience = () => {
       location: "Yogyakarta, Indonesia",
       period: "Nov 2024 - June 2025",
       description: [
-        "Mendukung kegiatan divisi Science & Technology di organisasi mahasiswa",
+        "Mendukung kegiatan divisi Science & Technology di Himpunan mahasiswa Teknologi Informasi",
       ]
     },
-    {
-      title: "Social Department Coordinator",
-      company: "Young On Top (YOT) Bogor",
-      location: "Bogor, Indonesia",
-      period: "Jan 2024 - Dec 2024",
-      description: [
-        "Mengkoordinasikan program sosial YOT Bogor",
-        "Master of Ceremony untuk beberapa acara komunitas (YoTeach YoFun, YOT Green x Social)",
-      ]
-    }
   ];
 
   return (
