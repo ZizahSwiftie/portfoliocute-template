@@ -2,6 +2,7 @@ import { useDarkMode } from '../contexts/DarkModeContext';
 import { useThemeColors } from '../hooks/useThemeColors';
 import { FileText, ArrowUp } from 'lucide-react';
 import { socialLinks } from '../config/socialLinks';
+import { FileText, ArrowUp, BookOpen } from 'lucide-react';
 
 const Footer = () => {
   const { isDarkMode } = useDarkMode();
