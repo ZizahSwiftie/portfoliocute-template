@@ -4,6 +4,8 @@ export const socialLinks = {
   github: 'https://github.com/ZizahSwiftie',
   linkedin: 'https://www.linkedin.com/in/nur-azizah-ulinnuha',
   email: 'azizahulnha@gmail.com',
+  medium: 'https://medium.com/@azizahulnha',
+  kompasiana: 'https://www.kompasiana.com/azizahnuha',
 
   // Figma project links (design/prototype)
   figma: {
